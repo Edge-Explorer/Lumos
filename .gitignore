@@ -1,0 +1,10 @@
+data/
+*.pth
+__pycache__/
+venv/
+.ipynb_checkpoints/
+lumos_corpus.txt
+stories.csv
+storytelling_dataset.json
+lumos_tokenizer.*
+*.pth
