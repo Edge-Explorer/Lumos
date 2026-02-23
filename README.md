@@ -176,7 +176,7 @@ Most AI engineers use pre-built libraries. Building from scratch means:
 
 ## 📄 License
 
-Apache License 2.0 — See `LICENSE` for details.
+MIT License — See `LICENSE` for details.
 
 ---
 
