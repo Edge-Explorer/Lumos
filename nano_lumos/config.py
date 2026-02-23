@@ -16,10 +16,10 @@ DEVICE = "cpu"  # Change to "cuda" if you have an NVIDIA GPU
 
 # Paths
 DATA_DIR = "data"
-RAW_DATA = "../stories.csv"
+RAW_DATA = "stories.csv"
 TRAIN_DATA = os.path.join(DATA_DIR, "sci_fi_nano.txt")
 TOKENIZER_PREFIX = os.path.join(DATA_DIR, "nano_tokenizer")
 MODEL_SAVE_PATH = "nano_lumos.pth"
 
 # Tokenizer
-VOCAB_SIZE = 8000  # Smaller vocab for smaller model
+VOCAB_SIZE = 3000  # Lowered to fit the small nano-dataset
