@@ -1,10 +1,27 @@
-data/
-*.pth
-__pycache__/
+# Environment
 venv/
+.env
+__pycache__/
 .ipynb_checkpoints/
-lumos_corpus.txt
-stories.csv
-storytelling_dataset.json
-lumos_tokenizer.*
+.DS_Store
+
+# Data files (all formats)
+data/
+*.csv
+*.txt
+*.json
+*.model
+*.vocab
+
+# Model files (specifically binaries)
+legacy_lumos/*.pth
 *.pth
+*.pth.ckpt
+*.bin
+*.pt
+
+# Jupyter
+.ipynb_checkpoints
+
+# Logs
+*.log
